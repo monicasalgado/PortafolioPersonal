@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Satisfy&display=swap');
+
+
+
+header{
+background-color: #F3EFEA;
+align-content: center;
+border-bottom: solid #461E6A 4px;
+}
+
+header img{
+width: 50%;
+align-content: center;
+}
+
+h1{
+font-family: 'Satisfy', cursive;
+}
+
+p{
+font-family: 'Raleway', sans-serif;
+}
+
+h3, h2{
+	font-family: 'Raleway', sans-serif;
+}
+
+#acerca{
+	background-image: url("../img/fondo_blanco.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 70px;
+	}
+
+#acerca img{
+	border-radius: 5%;
+	width: 60%;
+	transition: all 0.5s ease-in-out;
+	margin-left: 50px;
+	padding-left: 50px;
+	align-content: center;
+}
+
+#acerca img:hover{
+	border-radius: 5%;
+	width: 70%;
+	transition: all 0.5s ease-in-out;
+}
+
+
+#acerca h1{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top: 5px;
+	text-align: left;
+	color: #461E6A;
+	font-size: 70px;
+	
+}
+
+#acerca h1:hover{
+	color: #76AADB;
+	transition: all 0.5s ease-in-out;
+}
+
+#acerca p{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	width: 90%;
+	text-align: left;
+	
+}
+
+#servicios{
+	background-color: #76AADB;
+	
+}
+
+#servicios h1{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 70px;
+	color: #461E6A;
+	font-size: 80px;
+}
+
+#servicios h1:hover{
+	color: #F3EFEA;
+	transition: all 0.5s ease-in-out;
+}
+
+#servicios img{
+	width: 100%;
+	filter: opacity(17%);
+	align-content: center;
+	}
+
+.carousel-item{
+	height: 700px;
+	
+	}
+
+#servicios .carousel-caption{
+	display: grid;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	height: 100%;
+}
+
+#servicios i{
+	color: #76AADB;
+	font-size: 75px;
+	align-content: center;
+
+	
+}
+
+.circulo{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border: solid 2px #fff;
+	background-color: rgba(255,255,255,0.50);
+	display: block;
+	margin: auto;
+	align-content: center;
+	margin-bottom: 1px;
+	color: #FFFFFF;
+	font-size: 80px;
+	padding-bottom: 10px;
+}
+#servicios h3{
+	letter-spacing: 7px;
+	font-weight: 510;
+	text-align: center;
+	align-content: center;
+	padding-top: 30px;
+	
+}
+
+#proyectos{
+	background-image: url("../img/fondo_blanco.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 70px 0 100px;
+}
+
+.capa-relative{
+	position: relative;
+	overflow: hidden;
+}
+
+.capa-absolute{
+	position: absolute;
+	width: 100%;
+	height: 40%;
+	bottom: 0;
+	padding: 20px;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.capa-info{
+	position: relative;
+	width: 100%;
+	height: 40%;
+	background-color: #FFFFFF;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	padding: 40px 0 25px;
+	color: #76AADB;
+}
+
+.capa-absolute:hover{
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+
+.capa-info:hover{
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+
+#proyectos article img{
+	height: 350px;
+	margin: 50px 20px 20px;
+	align-content: center;
+}
+
+.black{
+font-size: 12;
+color: #000000;
+font-weight: 800;
+	
+}
+
+#proyectos h1{
+	margin-top: 5%;
+	width: 100%;
+	text-align: center;
+	color: #461E6A;
+	font-size: 70px;
+	
+}
+
+#proyectos h1:hover{
+	color: #76AADB;
+	transition: all 0.5s ease-in-out;
+	}
+
+#contacto {
+	align-content: center;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	background-color: #76AADB;
+	padding: 25px 0 40px;
+}
+
+#contact-form{
+	align-content: center;
+	margin: 15px 0;
+	padding: 25px;
+	}
+
+#contacto h1{
+	margin-top: 50px;
+	margin-bottom: 25px;
+	width: 100%;
+	text-align: center;
+	color: #461E6A;
+	font-size: 70px;
+}
+#contacto h1:hover{
+	color: #fff;
+	transition: all 0.5s ease-in-out;
+	}
+
+.btn-morado{
+	background-color: #461E6A;
+	color: #fff;
+	}
+
+.btn-morado:hover{
+	background-color: #fff;
+	transition: all 0.5s ease-in-out;
+	color: #461E6A;
+}
+
+footer{
+	background-color: #F3EFEA;
+	padding: 20px;
+	color: #461E6A;
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+	align-content: left;
+	}
+
+footer ul{
+	text-align: right;
+
+}
+
+footer ul li{
+	padding-right: 50px;
+	margin-top: 50px;
+}
+
+footer ul li a{
+	color: #461E6A;
+	font-size: 25px;
+}
+
+footer ul li a:hover{
+	color: #76AADB;
+	font-size: 25px;
+}
